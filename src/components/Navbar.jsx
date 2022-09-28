@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Back, ContainBack, Top, TopTwo } from "./Navbarstyle";
+import { Back, ContainBack, Top, TopThree, TopTwo } from "./Navbarstyle";
 class Navbar extends Component {
   render() {
     return (
@@ -18,6 +18,11 @@ class Navbar extends Component {
               <b>Search</b>
               <b>Cart(0)</b>
             </TopTwo>
+            <TopThree>
+              <b>At vero eoset</b>
+              <h2>Lorem ipsum de dolor amet</h2>
+              <button>Shop Now</button>
+            </TopThree>
           </Back>
         </ContainBack>
       </div>
