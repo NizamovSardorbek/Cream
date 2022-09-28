@@ -36,6 +36,20 @@ export default class Carusel extends Component {
             <div>
               <Creams>
                 <div>New</div>
+                <Crem1 src={Cream3} />
+                <h4>+ Quick Stop</h4>
+              </Creams>
+              <BottomText>
+                <div>Your Skin But Better CC+ Cream </div>
+                <BottomText2>
+                  <p>$18.00</p>
+                  <del>$32.00</del>
+                </BottomText2>
+              </BottomText>
+            </div>
+            <div>
+              <Creams>
+                <div> Sale</div>
                 <Crem1 src={Cream1} />
                 <h4>+ Quick Stop</h4>
               </Creams>
@@ -43,7 +57,6 @@ export default class Carusel extends Component {
                 <div>Your Skin But Better CC+ Cream </div>
                 <BottomText2>
                   <p>$28.00</p>
-                  <del>$32.00</del>
                 </BottomText2>
               </BottomText>
             </div>
@@ -56,28 +69,13 @@ export default class Carusel extends Component {
               <BottomText>
                 <div>Your Skin But Better CC+ Cream </div>
                 <BottomText2>
-                  <p>$28.00</p>
-                  <del>$32.00</del>
+                  <p>$39.00</p>
                 </BottomText2>
               </BottomText>
             </div>
-            <div>
-              <Creams>
-                <div> Sale</div>
-                <Crem1 src={Cream3} />
-                <h4>+ Quick Stop</h4>
-              </Creams>
-              <BottomText>
-                <div>Your Skin But Better CC+ Cream </div>
-                <BottomText2>
-                  <p>$28.00</p>
-                  <del>$32.00</del>
-                </BottomText2>
-              </BottomText>
-            </div>
-              <Right>
-                <p>____</p>
-              </Right>
+            <Right>
+              <p>____</p>
+            </Right>
           </CreamWrapMiddle>
         </CreamWrap>
       </Container>
