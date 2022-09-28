@@ -6,7 +6,7 @@ export const ContainBack = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   align-items: center;
   width: 80%;
   height: 800px;
